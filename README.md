@@ -11,6 +11,12 @@ Imagine que você tem uma caixa e quer organizar seus items dentro dela. No layo
 
 Os itens serão dispostos seguindo o eixo main axis (from main-start to main-end) ou o eixo transversal (from cross-start to cross-end).
 
+* 	Eixo principal – O eixo principal de um flex container é o eixo primário ao longo do qual os flex items são dispostos. Cuidado, ele não é necessariamente horizontal; depende da flex-directionpropriedade (veja abaixo).
+* 	Main-start | main-end – Os itens flexíveis são colocados dentro do contêiner começando em main-start e indo até main-end.
+* 	Tamanho principal – A largura ou altura de um item flex, o que estiver na dimensão principal, é o tamanho principal do item. A propriedade de tamanho principal do item flex é a propriedade 'width' ou 'height', o que estiver na dimensão principal.
+* 	Eixo transversal – O eixo perpendicular ao eixo principal é chamado de eixo transversal. Sua direção depende da direção do eixo principal.
+* 	Cross-start | cross-end – As linhas flexíveis são preenchidas com itens e colocadas no contêiner, começando no lado de cross-start do contêiner flexível e indo em direção ao lado de cross-end.
+* 	Cross size – A largura ou altura de um item flex, o que estiver na dimensão cross, é o tamanho cross do item. 
 
 ```
 Dar exemplos
