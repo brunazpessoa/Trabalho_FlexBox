@@ -8,10 +8,10 @@ Este projeto tem como objetivo explicar o Flexbox, uma técnica de layout no CSS
 Flexbox não é uma propriedade única, envolve muitas coisas, incluindo seu conjunto de propriedades. Algumas delas devem ser definidas no contêiner (conhecido como flex container) enquanto outras devem ser definidas como “flex items”.
 
 Imagine que você tem uma caixa e quer organizar seus items dentro dela. No layout tradicional, você pode colocar os brinquedos em uma linha ou em uma coluna, como uma fila ou uma pilha. Com o Flexbox, você pode escolher como quer que os items se organizem, podendo decidir se eles ficam alinhados de um jeito ou de outro, e até mudar a direção dependendo de como a caixa está posicionada. É como ter uma caixa que se ajusta automaticamente para organizar seus items da melhor forma possível!
-
+<img src="elemento.jpg" alt="Elementos flexbox">
 Os itens serão dispostos seguindo o eixo main axis (from main-start to main-end) ou o eixo transversal (from cross-start to cross-end).
 
-* 	Eixo principal – O eixo principal de um flex container é o eixo primário ao longo do qual os flex items são dispostos. Cuidado, ele não é necessariamente horizontal; depende da flex-directionpropriedade (veja abaixo).
+* 	Eixo principal – O eixo principal de um flex container é o eixo primário ao longo do qual os flex items são dispostos. Cuidado, ele não é necessariamente horizontal; depende da flex-directionpropriedade .
 * 	Main-start | main-end – Os itens flexíveis são colocados dentro do contêiner começando em main-start e indo até main-end.
 * 	Tamanho principal – A largura ou altura de um item flex, o que estiver na dimensão principal, é o tamanho principal do item. A propriedade de tamanho principal do item flex é a propriedade 'width' ou 'height', o que estiver na dimensão principal.
 * 	Eixo transversal – O eixo perpendicular ao eixo principal é chamado de eixo transversal. Sua direção depende da direção do eixo principal.
