@@ -1,70 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" >
-    <title>Flexbox</title>
+    <title>Exemplos de Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            border: 2px solid black;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        .item {
+            background-color: lightblue;
+            border: 1px solid blue;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>"Flexbox: O Guia Simples para Layouts Flexíveis"</h1>
-
-    <section id="intro">
-        <h2>O que é Flexbox?</h2>
-        <p>Flexbox é um módulo de layout do CSS que facilita a criação de layouts flexíveis e responsivos. Com o Flexbox, você pode organizar seus elementos na página de maneira eficiente, mesmo quando as dimensões dos elementos são dinâmicas ou desconhecidas</p>
-    </section>
-
-    <section id="conceitos">
-        <h2>Como Funciona o Flexbox?</h2>
-        <p>Flexbox organiza elementos em um contêiner principal chamado 'container flex'. Dentro desse contêiner, os elementos filhos são chamados de 'itens flex'. O grande diferencial do Flexbox é que ele permite distribuir espaço entre os itens e alinhar esses itens de maneira previsível, mesmo que o tamanho de um ou mais itens seja desconhecido ou dinâmico.</p>    
-    </section>
-
-    <section id="container">
-        <h2>Propriedades Principais do Container Flex</h2>
-        <ul>
-            <li>display: flex;
-            Ativa o Flexbox no contêiner. Todos os filhos diretos deste container se tornam itens 
-                 flexíveis.</li>
-            <li>flex-direction
-            Define a direção dos itens flexíveis. Pode ser row (linha), column (coluna), entre outros.
-                </li> 
-            <li>justify-content
-            Controla o alinhamento dos itens ao longo do eixo principal. Permite centralizar, distribuir espaço igualmente, etc.<li>                                 
-        </ul>  
-    </section>
-
-    <section id="itensflex">
-        <h2>Propriedades dos Itens Flexíveis</h2>
-        <ul>
-            <li>flex-grow
-                Permite que um item flex cresça e ocupe o espaço disponível no contêiner. Por exemplo, flex-grow: 1; faz com que o item cresça em proporção ao espaço disponível.</li>
-            <li>flex-shrink
-                Define como um item deve encolher se o espaço no contêiner for insuficiente.
-                </li> 
-            <li>align-self
-                Permite que um único item flex se alinhe diferentemente dos outros ao longo do eixo transversal.</li>                               
-        </ul>  
-    </section>
-
-    <section id="pai">
-								<h2>Propriedades para elemento - Pai</h2>
-								<p></p>
-			</section>
-
-			<section id="filho">
-								<h2>Propriedades para elemento - Filho</h2>
-								<p></p>
-			</section>
-
-			<section id="importante">
-								<h2>Importante</h2>
-								<p></p>
-			</section>
-
-			<section id="links">
-								<h2>links Importantes</h2>
-								<p></p>
-			</section>
-
+    <div class="container flex-direction">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <div class="container flex-wrap">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    <div class="container justify-content">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <div class="container align-items">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+    <div class="container align-content">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+    <div class="container align-self">
+        <div class="item">1</div>
+        <div class="item" style="align-self: flex-end;">2</div>
+        <div class="item">3</div>
+    </div>
+    <div class="container flex">
+        <div class="item" style="flex: 1;">1</div>
+        <div class="item" style="flex: 2;">2</div>
+        <div class="item" style="flex: 1;">3</div>
+    </div>
+    <div class="container flex-grow-shrink-basis">
+        <div class="item" style="flex-grow: 1; flex-shrink: 1; flex-basis: 100px;">1</div>
+        <div class="item" style="flex-grow: 2; flex-shrink: 1; flex-basis: 100px;">2</div>
+        <div class="item" style="flex-grow: 1; flex-shrink: 1; flex-basis: 100px;">3</div>
+    </div>
 </body>
 </html>
