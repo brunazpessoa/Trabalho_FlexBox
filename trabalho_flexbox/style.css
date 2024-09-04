@@ -8,7 +8,7 @@ li{
 
 }
 
-/* flex-direction */
+/* Flexbox com comandos de flex-direction */
 #ex1 {
     display: flex;
     background-color: antiquewhite;
@@ -21,7 +21,7 @@ li{
     flex-direction: column; /* Alinha itens verticalmente */
 }
 
-/* flex-wrap */
+/* Flexbox com comandos de flex-wrap */
 #ex3 {
     display: flex;
     background-color: blueviolet;
@@ -33,7 +33,7 @@ li{
     background-color:bisque;
 }
 
-/* justify-content */
+/* Flexbox com comandos de justify-content */
 #ex5{
     display: flex;
     justify-content: flex-start; /* Itens alinhados no início do eixo principal (padrão) */
