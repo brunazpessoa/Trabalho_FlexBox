@@ -73,6 +73,31 @@ vai o codigo aqui
 * column: Alinha os itens verticalmente, de cima para baixo.
 * column-reverse: Alinha os itens verticalmente, mas de baixo para cima.
 
+### flex-wrap
+Por padrão, todos os itens dentro do flex container tentam se ajustar em uma única linha. A propriedade flex-wrap permite alterar esse comportamento para que os itens possam quebrar e se mover para a linha seguinte, conforme necessário.
+
+<p align="center" width="700">
+    <img width="700" src="...">
+</p>
+
+```
+vai o codigo aqui
+```
+
+* nowrap (padrão): Todos os itens flexíveis permanecem em uma única linha, mesmo que o container não seja grande o suficiente para acomodá-los.
+* wrap: Os itens flexíveis se movem para a linha seguinte quando a linha atual está cheia, organizando-se de cima para baixo.
+* wrap-reverse: Os itens flexíveis se movem para a linha seguinte quando a linha atual está cheia, mas organizam-se de baixo para cima.
+
+### flew-flow
+A propriedade flex-flow é uma forma abreviada de definir duas propriedades ao mesmo tempo: flex-direction e flex-wrap. Ela determina a direção dos itens dentro do container flexível e se eles devem ou não quebrar para a próxima linha.
+
+<p align="center" width="700">
+    <img width="700" src="...">
+</p>
+
+```
+vai o codigo aqui
+```
 
 
 
