@@ -40,68 +40,39 @@ O código no CSS:
 **Eixos ou Axes** são direções que existem em um Flex Container: main axis (eixo principal), e cross axis (eixo transversal).
 
 ### :man: Propriedades para o elemento-pai
+<p align="center" width="700">
+    <img width="700" src="container.PNG">
+</p>
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+Para usar o flexbox é muito importante saber quais propriedades são colocadas no elemento-pai(container), por exemplo uma **div** que vai ter elementos para serem alinhados. E quais serão declaradas nos elementos-filhos. Abaixo, vamos mostrar exemplos de propriedades que devem ser declaradas utilizando o elemento-pai.
 
-Diga como essa etapa será:
+#### display
+Essa propriedade cria um flex container para os elementos dentro dele. Dependendo dos valores que você usa, o container pode se comportar como um bloco ou como um elemento em linha. Ela organiza todos os elementos filhos diretos usando o modelo Flexbox
 
-```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
-```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
-
-## ⚙️ Executando os testes
-
-Explicar como executar os testes automatizados para este sistema.
-
-### 🔩 Analise os testes de ponta a ponta
-
-Explique que eles verificam esses testes e porquê.
+<p align="center" width="700">
+    <img width="700" src="...">
+</p>
 
 ```
-Dar exemplos
+vai o codigo aqui
 ```
 
-### ⌨️ E testes de estilo de codificação
+### flex-direction
+Essa propriedade define a direção dos itens dentro do flex container. Ela estabelece o eixo principal ao longo do qual os itens são organizados. O Flexbox trabalha principalmente em uma direção de cada vez, seja horizontal ou vertical.
 
-Explique que eles verificam esses testes e porquê.
+<p align="center" width="700">
+    <img width="700" src="...">
+</p>
 
 ```
-Dar exemplos
+vai o codigo aqui
 ```
 
-## 📦 Implantação
+* row (padrão): Alinha os itens horizontalmente, da esquerda para a direita em layouts da esquerda para a direita (ltr) e da direita para a esquerda em layouts da direita para a esquerda (rtl).
+* row-reverse: Alinha os itens horizontalmente, mas da direita para a esquerda em ltr e da esquerda para a direita em rtl.
+* column: Alinha os itens verticalmente, de cima para baixo.
+* column-reverse: Alinha os itens verticalmente, mas de baixo para cima.
 
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
-## 🛠️ Construído com
 
-Mencione as ferramentas que você usou para criar seu projeto
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - O framework web usado
-* [Maven](https://maven.apache.org/) - Gerente de Dependência
-* [ROME](https://rometools.github.io/rome/) - Usada para gerar RSS
-
-## 🖇️ Colaborando
-
-Por favor, leia o [COLABORACAO.md](https://gist.github.com/usuario/linkParaInfoSobreContribuicoes) para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
-
-## 📌 Versão
-
-Nós usamos [SemVer](http://semver.org/) para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
-
-## ✒️ Autores
-
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
-
-* **Um desenvolvedor** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/linkParaPerfil)
-* **Fulano De Tal** - *Documentação* - [fulanodetal](https://github.com/linkParaPerfil)
-
-Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
