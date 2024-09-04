@@ -1,0 +1,102 @@
+/* flex-direction */
+.flex-direction {
+    flex-direction: row; /* Alinha itens horizontalmente (padrão) */
+}
+.flex-direction {
+    flex-direction: column; /* Alinha itens verticalmente */
+}
+
+/* flex-wrap */
+.flex-wrap {
+    flex-wrap: nowrap; /* Todos os itens em uma única linha (padrão) */
+}
+.flex-wrap {
+    flex-wrap: wrap; /* Quebra os itens em várias linhas */
+}
+
+/* justify-content */
+.justify-content {
+    justify-content: flex-start; /* Itens alinhados no início do eixo principal (padrão) */
+}
+.justify-content {
+    justify-content: center; /* Itens alinhados no centro do eixo principal */
+}
+.justify-content {
+    justify-content: space-between; /* Espaço igual entre itens */
+}
+.justify-content {
+    justify-content: space-around; /* Espaço igual ao redor dos itens */
+}
+
+/* align-items */
+.align-items {
+    align-items: stretch; /* Itens esticados para preencher o contêiner (padrão) */
+}
+.align-items {
+    align-items: center; /* Itens alinhados no centro do eixo transversal */
+}
+.align-items {
+    align-items: flex-start; /* Itens alinhados no início do eixo transversal */
+}
+.align-items {
+    align-items: flex-end; /* Itens alinhados no final do eixo transversal */
+}
+
+/* align-content */
+.align-content {
+    align-content: flex-start; /* Linhas alinhadas no início do eixo transversal */
+}
+.align-content {
+    align-content: center; /* Linhas alinhadas no centro do eixo transversal */
+}
+.align-content {
+    align-content: space-between; /* Espaço igual entre linhas */
+}
+.align-content {
+    align-content: space-around; /* Espaço igual ao redor das linhas */
+}
+
+/* align-self */
+.align-self {
+    align-items: stretch; /* Itens esticados (padrão) */
+}
+.align-self {
+    align-items: center; /* Itens alinhados no centro */
+}
+.align-self {
+    align-items: flex-start; /* Itens alinhados no início */
+}
+.align-self {
+    align-items: flex-end; /* Itens alinhados no final */
+}
+
+/* flex */
+.flex {
+    display: flex;
+}
+.flex > .item {
+    flex: 1; /* Itens crescem igualmente */
+}
+.flex > .item {
+    flex: 2; /* Item 2 cresce o dobro dos outros */
+}
+
+/* flex-grow, flex-shrink, e flex-basis */
+.flex-grow-shrink-basis {
+    display: flex;
+}
+.flex-grow-shrink-basis > .item {
+    flex-grow: 1; /* Item cresce para preencher o espaço disponível */
+}
+.flex-grow-shrink-basis > .item {
+    flex-shrink: 1; /* Item encolhe se necessário */
+}
+.flex-grow-shrink-basis > .item {
+    flex-basis: 100px; /* Tamanho inicial do item */
+}
+
+
+
+
+
+
