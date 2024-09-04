@@ -5,52 +5,50 @@
 }
 li{
     list-style: none;
-
 }
 
 /* Flexbox com comandos de flex-direction */
 #ex1 {
     display: flex;
-    background-color: antiquewhite;
     flex-direction: row; /* Alinha itens horizontalmente (padrão) */
+    background-color: antiquewhite;
+    margin: 0px 300px 0px 300px;
+
 }
 
 #ex2 {
     display: flex;
-    background-color: aquamarine;
     flex-direction: column; /* Alinha itens verticalmente */
+    background-color: aquamarine;
+    margin: 0px 300px 0px 300px;
+
 }
 
 /* Flexbox com comandos de flex-wrap */
-#ex3 {
-    display: flex;
-    background-color: blueviolet;
-    flex-wrap: nowrap; /* Todos os itens em uma única linha (padrão) */
-}
-#ex4 {
-    display: flex;
-    flex-wrap: wrap; /* Quebra os itens em várias linhas */
-    background-color:bisque;
-}
-
-/* Flexbox com comandos de justify-content */
-#ex5{
-    display: flex;
-    justify-content: flex-start; /* Itens alinhados no início do eixo principal (padrão) */
-    background-color: lawngreen;
-}
-#ex6{
+#ex3{
     display: flex;
     justify-content: center; /* Itens alinhados no centro do eixo principal */
     background-color: lightcyan;
+    margin: 0px 300px 0px 300px;
 }
-#ex7{
+#ex4{
     display: flex;
     justify-content: space-between; /* Espaço igual entre itens */
     background-color: lemonchiffon;
+    margin: 0px 300px 0px 300px;
 }
-#ex8{
+#ex5{
     display: flex;
     justify-content: space-around; /* Espaço igual ao redor dos itens */
     background-color: lavender;
+    margin: 0px 300px 0px 300px;
 }
+
+#ex6 {
+    display: flex;
+    justify-content: flex-end; /* Alinha itens ao final do eixo principal (horizontal) */
+    background-color: peru;
+    margin: 0px 300px 0px 300px;
+}
+
+
