@@ -1,17 +1,26 @@
-  .container {
-            display: flex;
-            border: 2px solid black;
-            height: 200px;
-            margin-bottom: 20px;
-        }
-        .item {
-            background-color: lightblue;
-            border: 1px solid blue;
-            padding: 10px;
-            margin: 5px;
-            text-align: center;
-        }
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
 
+.container {
+    display: flex;
+    background-color: #8e44ad; /* Cor roxa do container */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.item {
+    background-color: #e67e22; /* Cor laranja dos itens */
+    width: 100px;
+    height: 60px;
+    margin: 0 5px;
+    border-radius: 10px;
+}
 /* flex-direction */
 .flex-direction {
     flex-direction: row; /* Alinha itens horizontalmente (padrão) */
