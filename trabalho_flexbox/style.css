@@ -1,125 +1,56 @@
 .body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f8f8f8;
 }
+li{
+    list-style: none;
 
-.container {
-    display: flex;
-    background-color: #8e44ad; /* Cor roxa do container */
-    padding: 10px;
-    border-radius: 10px;
 }
 
-.item {
-    background-color: #e67e22; /* Cor laranja dos itens */
-    width: 100px;
-    height: 60px;
-    margin: 0 5px;
-    border-radius: 10px;
-}
 /* flex-direction */
-.flex-direction {
+#ex1 {
+    display: flex;
+    background-color: antiquewhite;
     flex-direction: row; /* Alinha itens horizontalmente (padrão) */
 }
-.flex-direction {
+
+#ex2 {
+    display: flex;
+    background-color: aquamarine;
     flex-direction: column; /* Alinha itens verticalmente */
 }
 
 /* flex-wrap */
-.flex-wrap {
+#ex3 {
+    display: flex;
+    background-color: blueviolet;
     flex-wrap: nowrap; /* Todos os itens em uma única linha (padrão) */
 }
-.flex-wrap {
+#ex4 {
+    display: flex;
     flex-wrap: wrap; /* Quebra os itens em várias linhas */
+    background-color:bisque;
 }
 
 /* justify-content */
-.justify-content {
+#ex5{
+    display: flex;
     justify-content: flex-start; /* Itens alinhados no início do eixo principal (padrão) */
+    background-color: lawngreen;
 }
-.justify-content {
+#ex6{
+    display: flex;
     justify-content: center; /* Itens alinhados no centro do eixo principal */
+    background-color: lightcyan;
 }
-.justify-content {
+#ex7{
+    display: flex;
     justify-content: space-between; /* Espaço igual entre itens */
+    background-color: lemonchiffon;
 }
-.justify-content {
+#ex8{
+    display: flex;
     justify-content: space-around; /* Espaço igual ao redor dos itens */
+    background-color: lavender;
 }
-
-/* align-items */
-.align-items {
-    align-items: stretch; /* Itens esticados para preencher o contêiner (padrão) */
-}
-.align-items {
-    align-items: center; /* Itens alinhados no centro do eixo transversal */
-}
-.align-items {
-    align-items: flex-start; /* Itens alinhados no início do eixo transversal */
-}
-.align-items {
-    align-items: flex-end; /* Itens alinhados no final do eixo transversal */
-}
-
-/* align-content */
-.align-content {
-    align-content: flex-start; /* Linhas alinhadas no início do eixo transversal */
-}
-.align-content {
-    align-content: center; /* Linhas alinhadas no centro do eixo transversal */
-}
-.align-content {
-    align-content: space-between; /* Espaço igual entre linhas */
-}
-.align-content {
-    align-content: space-around; /* Espaço igual ao redor das linhas */
-}
-
-/* align-self */
-.align-self {
-    align-items: stretch; /* Itens esticados (padrão) */
-}
-.align-self {
-    align-items: center; /* Itens alinhados no centro */
-}
-.align-self {
-    align-items: flex-start; /* Itens alinhados no início */
-}
-.align-self {
-    align-items: flex-end; /* Itens alinhados no final */
-}
-
-/* flex */
-.flex {
-    display: flex;
-}
-.flex > .item {
-    flex: 1; /* Itens crescem igualmente */
-}
-.flex > .item {
-    flex: 2; /* Item 2 cresce o dobro dos outros */
-}
-
-/* flex-grow, flex-shrink, e flex-basis */
-.flex-grow-shrink-basis {
-    display: flex;
-}
-.flex-grow-shrink-basis > .item {
-    flex-grow: 1; /* Item cresce para preencher o espaço disponível */
-}
-.flex-grow-shrink-basis > .item {
-    flex-shrink: 1; /* Item encolhe se necessário */
-}
-.flex-grow-shrink-basis > .item {
-    flex-basis: 100px; /* Tamanho inicial do item */
-}
-
-
-
-
-
-
