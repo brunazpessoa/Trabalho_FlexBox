@@ -9,9 +9,9 @@ Flexbox não é uma propriedade única, envolve muitas coisas, incluindo seu con
 
 Imagine que você tem uma caixa e quer organizar seus items dentro dela. No layout tradicional, você pode colocar os brinquedos em uma linha ou em uma coluna, como uma fila ou uma pilha. Com o Flexbox, você pode escolher como quer que os items se organizem, podendo decidir se eles ficam alinhados de um jeito ou de outro, e até mudar a direção dependendo de como a caixa está posicionada. É como ter uma caixa que se ajusta automaticamente para organizar seus items da melhor forma possível!
 
-<div style="text-align: center;">
-  <img src="elementos.jpg" alt="Elementos flexbox" width="600" />
-</div>
+<p align="center" width="700">
+    <img width="700" src="elementosflex.png">
+</p>
 
 Os itens serão dispostos seguindo o eixo main axis (from main-start to main-end) ou o eixo transversal (from cross-start to cross-end).
 
