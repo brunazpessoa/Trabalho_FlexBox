@@ -1,3 +1,17 @@
+  .container {
+            display: flex;
+            border: 2px solid black;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        .item {
+            background-color: lightblue;
+            border: 1px solid blue;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+        }
+
 /* flex-direction */
 .flex-direction {
     flex-direction: row; /* Alinha itens horizontalmente (padrão) */
