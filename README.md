@@ -22,11 +22,24 @@ Os itens serão dispostos seguindo o eixo main axis (from main-start to main-end
 * 	Cross-start | cross-end – As linhas flexíveis são preenchidas com itens e colocadas no contêiner, começando no lado de cross-start do contêiner flexível e indo em direção ao lado de cross-end.
 * 	Cross size – A largura ou altura de um item flex, o que estiver na dimensão cross, é o tamanho cross do item. 
 
-```
-Dar exemplos
-```
+**Flex container** é um elemento. Para definir que um elemento é um Flex Container com a propriedade **display** e valores **flex** ou **inline-flex.**
 
-### 🔧 Instalação
+Código em HTML: 
+```
+<div class="flex-container">
+    <div>1</div>
+  </div>
+```
+O código no CSS:
+```
+.flex-container {
+    display: flex;
+  }
+```
+**Flex Item** são elementos-filhos do flex container.
+**Eixos ou Axes** são direções que existem em um Flex Container: main axis (eixo principal), e cross axis (eixo transversal).
+
+### :man: Propriedades para o elemento-pai
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
