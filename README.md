@@ -33,7 +33,7 @@ Código em HTML:
 O código no CSS: 
 ```
 .flex-container {
-    display: flex; kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+    display: flex; 
   }
 ```
 **Flex Item** são elementos-filhos do flex container.
