@@ -120,11 +120,14 @@ Essa propriedade ajusta o alinhamento dos itens ao longo do eixo principal e dis
 ```
 vai o codigo aqui
 ```
-[<img src="https://avatars.githubusercontent.com/u/178385852?v=4" width=115 > <br> <sub> Yasmin Mendes </sub>](https://github.com/YasminMSouza) 
-|[<img src="https://avatars.githubusercontent.com/u/130071892?v=4" width=115 > <br> <sub> Bruna Zakaib </sub>](https://github.com/brunazpessoa) 
-|[<img src="https://avatars.githubusercontent.com/u/180230011?v=4" width=115 > <br> <sub> Isabela Realli </sub>](https://github.com/IsabelaReali) 
-|[<img src="https://avatars.githubusercontent.com/u/180229545?v=4" width=115 > <br> <sub> Beatriz Soares </sub>](https://github.com/Beatriz-sol) |
- 
+Para incluir essas informações em um README no GitHub, você pode usar a seguinte sintaxe Markdown:
+
+
+| ![Yasmin Mendes](https://avatars.githubusercontent.com/u/178385852?v=4) <br> <sub> Yasmin Mendes </sub> | ![Bruna Zakaib](https://avatars.githubusercontent.com/u/130071892?v=4) <br> <sub> Bruna Zakaib </sub> | ![Isabela Realli](https://avatars.githubusercontent.com/u/180230011?v=4) <br> <sub> Isabela Realli </sub> | ![Beatriz Soares](https://avatars.githubusercontent.com/u/180229545?v=4) <br> <sub> Beatriz Soares </sub> |
+| --- | --- | --- | --- |
+| [Yasmin Mendes](https://github.com/YasminMSouza) | [Bruna Zakaib](https://github.com/brunazpessoa) | [Isabela Realli](https://github.com/IsabelaReali) | [Beatriz Soares](https://github.com/Beatriz-sol) |
+
+
  
 
 
