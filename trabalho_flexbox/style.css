@@ -5,50 +5,93 @@
 }
 li{
     list-style: none;
+    border-style: dashed;
+    border-radius: 5px;
+    border-color: black;
+    padding: 5px;
 }
+
+div {
+    margin: 20px 300px 20px 300px;
+}
+
 
 /* Flexbox com comandos de flex-direction */
 #ex1 {
     display: flex;
     flex-direction: row; /* Alinha itens horizontalmente (padrão) */
     background-color: antiquewhite;
-    margin: 0px 300px 0px 300px;
-
 }
 
 #ex2 {
     display: flex;
     flex-direction: column; /* Alinha itens verticalmente */
     background-color: aquamarine;
-    margin: 0px 300px 0px 300px;
-
 }
 
-/* Flexbox com comandos de flex-wrap */
+/* Flexbox com comandos de justify-content */
 #ex3{
     display: flex;
     justify-content: center; /* Itens alinhados no centro do eixo principal */
     background-color: lightcyan;
-    margin: 0px 300px 0px 300px;
 }
 #ex4{
     display: flex;
     justify-content: space-between; /* Espaço igual entre itens */
     background-color: lemonchiffon;
-    margin: 0px 300px 0px 300px;
 }
 #ex5{
     display: flex;
     justify-content: space-around; /* Espaço igual ao redor dos itens */
     background-color: lavender;
-    margin: 0px 300px 0px 300px;
 }
 
 #ex6 {
     display: flex;
     justify-content: flex-end; /* Alinha itens ao final do eixo principal (horizontal) */
     background-color: peru;
-    margin: 0px 300px 0px 300px;
 }
 
+/* Flexbox com comandos de flex-wrap */
+#ex7 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: burlywood; 
+}
 
+#ex8 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+
+#ex9 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(227, 140, 204);
+
+}
+
+/*Flexbox com comandos flex-flow */
+#ex10 {
+    display: flex;
+    flex-flow: column; /*ordena os itens normalmente */
+    background-color: rgb(166, 140, 227);
+}
+#ex11 {
+    display: flex;
+    flex-flow:column-reverse;
+    background-color: rgb(247, 127, 139); /* inverte a ordem dos itens */
+}
+
+#ex12 {
+    display: flex;
+    flex-flow:row; /*itens ficam todos na vertical, no canto esquerdo*/
+    background-color: rgb(247, 127, 139);    
+}
+
+#ex13 {
+    display: flex;
+    flex-flow:row-reverse; /*itens ficam todos na vertical, na ordem contraria e no canto direito*/
+    background-color: rgb(224, 232, 114);    
+}
