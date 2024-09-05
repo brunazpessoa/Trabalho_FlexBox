@@ -25,11 +25,11 @@ Os itens serão dispostos seguindo o eixo main axis (from main-start to main-end
 **Flex container** é um elemento. Para definir que um elemento é um Flex Container com a propriedade **display** e valores **flex** ou **inline-flex.**
 
 Código em HTML: 
-`````
+`
 <div class="flex-container">
     <div>1</div>
   </div>
-`````
+`
 O código no CSS:
 ```
 .flex-container {
