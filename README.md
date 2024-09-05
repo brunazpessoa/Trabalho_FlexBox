@@ -30,10 +30,10 @@ Código em HTML:
     <div>1</div>
   </div>
 ```
-O código no CSS: kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+O código no CSS: 
 ```
 .flex-container {
-    display: flex;
+    display: flex; kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
   }
 ```
 **Flex Item** são elementos-filhos do flex container.
