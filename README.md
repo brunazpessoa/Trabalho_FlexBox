@@ -99,5 +99,29 @@ A propriedade flex-flow é uma forma abreviada de definir duas propriedades ao m
 vai o codigo aqui
 ```
 
+### justify-content
+Essa propriedade ajusta o alinhamento dos itens ao longo do eixo principal e distribui o espaço livre restante no contêiner. Ela controla como os itens são alinhados e espaçados, mesmo quando há mais itens do que o espaço disponível na linha.
+
+* **flex-start:** Alinha todos os itens no início da linha, de acordo com a direção do contêiner (por exemplo, à esquerda se a direção for da esquerda para a direita).
+* **flex-end:** Alinha todos os itens no final da linha, de acordo com a direção do contêiner (por exemplo, à direita se a direção for da esquerda para a direita).
+* **start:** Alinha os itens no início da direção de escrita (por exemplo, à esquerda em um idioma que lê da esquerda para a direita).
+* **end:** Alinha os itens no final da direção de escrita (por exemplo, à direita em um idioma que lê da esquerda para a direita).
+* **left:** Alinha os itens à borda esquerda do contêiner, mas pode se comportar como start dependendo da direção do contêiner.
+* **right:** Alinha os itens à borda direita do contêiner, mas pode se comportar como start dependendo da direção do contêiner.
+* **center:** Centraliza os itens na linha.
+* **space-between:** Distribui os itens com o primeiro item na borda inicial e o último item na borda final da linha. O espaço restante é distribuído uniformemente entre os itens.
+* **space-around:** Distribui os itens com o mesmo espaço ao redor de cada item. O primeiro item terá menos espaço à borda do contêiner comparado ao espaço entre os itens.
+* **space-evenly:** Distribui os itens com o mesmo espaço entre todos os itens e as bordas do contêiner, garantindo que o espaço entre qualquer dois itens seja igual.
+
+ <p align="center" width="700">
+    <img width="700" src="...">
+</p>
+
+```
+vai o codigo aqui
+```
+
+ 
+
 
 
