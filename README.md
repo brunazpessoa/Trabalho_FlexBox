@@ -120,7 +120,11 @@ Essa propriedade ajusta o alinhamento dos itens ao longo do eixo principal e dis
 ```
 vai o codigo aqui
 ```
-
+[<img src="https://avatars.githubusercontent.com/u/178385852?v=4" width=115 > <br> <sub> Yasmin Mendes </sub>](https://github.com/YasminMSouza) 
+|[<img src="https://avatars.githubusercontent.com/u/130071892?v=4" width=115 > <br> <sub> Bruna Zakaib </sub>](https://github.com/brunazpessoa) 
+|[<img src="https://avatars.githubusercontent.com/u/180230011?v=4" width=115 > <br> <sub> Isabela Realli </sub>](https://github.com/IsabelaReali) 
+|[<img src="https://avatars.githubusercontent.com/u/180229545?v=4" width=115 > <br> <sub> Beatriz Soares </sub>](https://github.com/Beatriz-sol) |
+ 
  
 
 
