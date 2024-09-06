@@ -140,16 +140,3 @@ div {
     flex-flow:row-reverse; /*itens ficam todos na vertical, na ordem contraria e no canto direito*/
     background-color: rgb(166, 140, 227);    
 }
-
-#ex12 {
-    display: flex;
-    flex-flow:row; /*itens ficam todos na vertical, no canto esquerdo*/
-    background-color: rgb(166, 140, 227);    
-}
-
-#ex13 {
-    display: flex;
-    flex-flow:row-reverse; /*itens ficam todos na vertical, na ordem contraria e no canto direito*/
-    background-color: rgb(166, 140, 227);    
-}
-
