@@ -1,5 +1,14 @@
 # Flexbox
 
+<p align="center">👇🏼Os nossos tópicos👇🏼</p>
+<p align="center">
+ <a>Noções Básicas</a> •
+ <a>Propriedades para o elemento-pai e filho</a> • 
+ <a>Integrantes do Projeto</a> • 
+</p>
+
+✅ :white_check_mark: FINALIZADO
+
 ## 🚀 Começando
 
 Este projeto tem como objetivo explicar o Flexbox, uma técnica de layout no CSS que facilita a criação de designs responsivos e flexíveis. Vou abordar os diferentes tipos de propriedades do Flexbox e como usá-las para organizar e alinhar itens em uma página web. O foco será em como aplicar essas propriedades para criar layouts que se ajustam automaticamente a diferentes tamanhos de tela.
@@ -174,6 +183,10 @@ Essa propriedade ajusta o alinhamento dos itens ao longo do eixo principal e dis
 | ![Yasmin Mendes](https://avatars.githubusercontent.com/u/178385852?v=4) <br> <sub> Yasmin Mendes </sub> | ![Bruna Zakaib](https://avatars.githubusercontent.com/u/130071892?v=4) <br> <sub> Bruna Zakaib </sub> | ![Isabela Realli](https://avatars.githubusercontent.com/u/180230011?v=4) <br> <sub> Isabela Realli </sub> | ![Beatriz Soares](https://avatars.githubusercontent.com/u/180229545?v=4) <br> <sub> Beatriz Soares </sub> |
 | --- | --- | --- | --- |
 | [Yasmin Mendes](https://github.com/YasminMSouza) | [Bruna Zakaib](https://github.com/brunazpessoa) | [Isabela Realli](https://github.com/IsabelaReali) | [Beatriz Soares](https://github.com/Beatriz-sol) |
+
+Licença 📝
+Esse projeto está autorizado pelo MIT
+
 
 
  
