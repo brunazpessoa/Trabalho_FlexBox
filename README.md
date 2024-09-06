@@ -49,23 +49,26 @@ Para usar o flexbox é muito importante saber quais propriedades são colocadas 
 #### display
 Essa propriedade cria um flex container para os elementos dentro dele. Dependendo dos valores que você usa, o container pode se comportar como um bloco ou como um elemento em linha. Ela organiza todos os elementos filhos diretos usando o modelo Flexbox
 
-<p align="center" width="700">
-    <img width="700" src="...">
-</p>
-
-```
-vai o codigo aqui
-```
-
 ### flex-direction
 Essa propriedade define a direção dos itens dentro do flex container. Ela estabelece o eixo principal ao longo do qual os itens são organizados. O Flexbox trabalha principalmente em uma direção de cada vez, seja horizontal ou vertical.
 
 <p align="center" width="700">
-    <img width="700" src="...">
+    <img width="700" src="flexdirection.png">
 </p>
 
 ```
-vai o codigo aqui
+#ex1 {
+    display: flex;
+    flex-direction: row; /* Alinha itens horizontalmente (padrão) */
+    background-color: aquamarine;
+}
+
+#ex2 {
+    display: flex;
+    flex-direction: column; /* Alinha itens verticalmente */
+    background-color: lightsalmon;
+    align-items: center;
+}
 ```
 
 * row (padrão): Alinha os itens horizontalmente, da esquerda para a direita em layouts da esquerda para a direita (ltr) e da direita para a esquerda em layouts da direita para a esquerda (rtl).
