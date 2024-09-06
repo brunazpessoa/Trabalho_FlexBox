@@ -80,11 +80,20 @@ Essa propriedade define a direção dos itens dentro do flex container. Ela esta
 Por padrão, todos os itens dentro do flex container tentam se ajustar em uma única linha. A propriedade flex-wrap permite alterar esse comportamento para que os itens possam quebrar e se mover para a linha seguinte, conforme necessário.
 
 <p align="center" width="700">
-    <img width="700" src="...">
+    <img width="700" src="flexwrap.png">
 </p>
 
 ```
-vai o codigo aqui
+#ex9 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(227, 140, 204);
+    align-items: center;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
 ```
 
 * nowrap (padrão): Todos os itens flexíveis permanecem em uma única linha, mesmo que o container não seja grande o suficiente para acomodá-los.
@@ -95,11 +104,15 @@ vai o codigo aqui
 A propriedade flex-flow é uma forma abreviada de definir duas propriedades ao mesmo tempo: flex-direction e flex-wrap. Ela determina a direção dos itens dentro do container flexível e se eles devem ou não quebrar para a próxima linha.
 
 <p align="center" width="700">
-    <img width="700" src="...">
+    <img width="700" src="flexflow.png">
 </p>
 
 ```
-vai o codigo aqui
+#ex11 {
+    display: flex;
+    flex-flow: column; /*ordena os itens normalmente */
+    background-color: rgb(166, 140, 227);
+}
 ```
 
 ### justify-content
@@ -117,12 +130,44 @@ Essa propriedade ajusta o alinhamento dos itens ao longo do eixo principal e dis
 * **space-evenly:** Distribui os itens com o mesmo espaço entre todos os itens e as bordas do contêiner, garantindo que o espaço entre qualquer dois itens seja igual.
 
  <p align="center" width="700">
-    <img width="700" src="...">
+    <img width="700" src="justifycontent.png">
 </p>
 
 ```
-vai o codigo aqui
+#ex3{
+    display: flex;
+    justify-content: center; /* Itens alinhados no centro do eixo principal */
+    background-color: rgb(230, 193, 109);
+    background-color: deeppink;
+}
+#ex4{
+    display: flex;
+    justify-content: space-between; /* Espaço igual entre itens */
+    background-color: rgb(230, 193, 109);
+    background-color: rebeccapurple;
+}
+#ex5{
+    display: flex;
+    justify-content: space-around; /* Espaço igual ao redor dos itens */
+    background-color: rgb(230, 193, 109);
+    background-color: slategray;
+}
+#ex6{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(230, 193, 109);
+  background-color: yellow;
+}
+
+#ex7 {
+    display: flex;
+    justify-content: flex-end; /* Alinha itens ao final do eixo principal (horizontal) */
+    background-color: rgb(230, 193, 109);
+}
+
 ```
+
+
 ### :family: Integrantes do Projeto
 
 
