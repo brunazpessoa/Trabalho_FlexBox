@@ -3,6 +3,29 @@
     margin: 0;
     background-color: #f8f8f8;
 }
+
+p {
+  font-size: 12pt;
+  font-style: arial;
+  margin-left: 10px;
+}
+
+h1 {
+  color: rgb(20, 20, 20);
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+header {
+  width: 100%;
+  background-color: #ca9fdfa1;
+  padding: 0;
+  margin: 0;
+  height: 200px;
+}
+
 li{
     list-style: none;
     border-style: dashed;
@@ -26,7 +49,8 @@ div {
 #ex2 {
     display: flex;
     flex-direction: column; /* Alinha itens verticalmente */
-    background-color: aquamarine;
+    background-color: lightsalmon;
+    align-items: center;
 }
 
 /* Flexbox com comandos de justify-content */
@@ -34,38 +58,59 @@ div {
     display: flex;
     justify-content: center; /* Itens alinhados no centro do eixo principal */
     background-color: rgb(230, 193, 109);
+    background-color: deeppink;
 }
 #ex4{
     display: flex;
     justify-content: space-between; /* Espaço igual entre itens */
     background-color: rgb(230, 193, 109);
+    background-color: rebeccapurple;
 }
 #ex5{
     display: flex;
     justify-content: space-around; /* Espaço igual ao redor dos itens */
     background-color: rgb(230, 193, 109);
+    background-color: slategray;
 }
 
-#ex6 {
+#ex6{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(230, 193, 109);
+  background-color: yellow;
+}
+
+#ex7 {
     display: flex;
     justify-content: flex-end; /* Alinha itens ao final do eixo principal (horizontal) */
     background-color: rgb(230, 193, 109);
 }
 
 /* Flexbox com comandos de flex-wrap */
-#ex7 {
+#ex8 {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: now rap;
     background-color: rgb(227, 140, 204);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-#ex8 {
+
+#ex9 {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(227, 140, 204);
+    align-items: center;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-#ex9 {
+
+#ex10 {
     display: flex;
     flex-wrap: wrap-reverse;
     background-color: rgb(227, 140, 204);
@@ -73,15 +118,27 @@ div {
 }
 
 /*Flexbox com comandos flex-flow */
-#ex10 {
+#ex11 {
     display: flex;
     flex-flow: column; /*ordena os itens normalmente */
     background-color: rgb(166, 140, 227);
 }
-#ex11 {
+#ex12 {
     display: flex;
     flex-flow:column-reverse;/* inverte a ordem dos itens */
     background-color: rgb(166, 140, 227); 
+}
+
+#ex13 {
+    display: flex;
+    flex-flow:row; /*itens ficam todos na vertical, no canto esquerdo*/
+    background-color: rgb(166, 140, 227);    
+}
+
+#ex14 {
+    display: flex;
+    flex-flow:row-reverse; /*itens ficam todos na vertical, na ordem contraria e no canto direito*/
+    background-color: rgb(166, 140, 227);    
 }
 
 #ex12 {
